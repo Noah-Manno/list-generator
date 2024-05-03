@@ -1,0 +1,35 @@
+{
+  "name": "list-generator",
+  "version": "1.0.0",
+  "description": "This application generates a list using inquirer and classes.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noah-Manno/list-generator.git"
+  },
+  "keywords": [
+    "list",
+    "classes",
+    "node",
+    "inquirer",
+    "jest",
+    "test"
+  ],
+  "author": "Noah Manno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noah-Manno/list-generator/issues"
+  },
+  "homepage": "https://github.com/Noah-Manno/list-generator#readme",
+  "dependencies": {
+    "inquirer": "^9.2.20",
+    "jest": "^29.7.0"
+  }
+}
