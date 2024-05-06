@@ -7,4 +7,11 @@ describe('Task List Item', () => {
         const item = new TaskListItem([text]);
         expect(item.render()).toEqual(html)
     });
+
+    it('should render a priority task', () => {
+        const text = "Goodbye World"
+        const html = '<li class="tasks-item tasks-item-priority">Goodbye World</li>';
+        const item = new TaskListItem([text], true)
+        expect(item.render()).toEqual(html)
+    })
 });
